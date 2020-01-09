@@ -11,9 +11,40 @@ js:
 canonical: https://hacksugar.org
 ---
 {% include JB/setup %}
-
+<link rel="stylesheet" href="{{ BASE_PATH }}/assets/css/custom.css">
 <!--Content Area Start-->
 <div id="content" class="bg-dark">
+
+	<!--HEADER START-->
+	<!--Header END-->
+	<div class="single-testimonial-area">
+        <div class="container">
+          	<div id="single-testimonial-item" class="owl-carousel">
+            	<!-- Single testimonial Item -->
+            	<div class="item">
+              		<div class="row justify-content-md-center">
+                		<div class="col-md-8 col-xs-12 col-md-auto">
+                  			<div class="testimonial-inner text-md-center">
+                    			<blockquote>
+									popcornVPN is a secure VPN that protects you and your privacy.
+									What's not to like?
+                    			</blockquote>
+                    			<div class="testimonial-images">
+                      				<img class="img-circle text-md-center" src="{{ BASE_PATH }}/assets/images/testimonial/img1.jpg" alt="">
+                    			</div>
+                    			<div class="testimonial-footer">
+                      				<i class="fa fa-user"></i> Connor McDermid
+                      				<a href="#">hackSugar</a>
+                    			</div>
+                  			</div>
+                		</div>
+              		</div>
+				</div>
+			</div>
+		</div>
+	  </div>
+	  <div class="spacer"></div>
+	  <div class="spacer"></div>
     <div id="features" class="container">
 		<!-- SERVICES -->
 		<div class="sub-title">
@@ -119,5 +150,20 @@ canonical: https://hacksugar.org
     </div>
     <!--SERVICES AREA END-->
 
-    
+	<div class="spacer"></div>
+
+	<div id="video" class="container">
+		<div id="viddesc" class="hero-content-v2">
+			<h3><strong>You have a right to privacy.</strong>We ensure it.</h3>
+		</div>
+		<div class="videoWrapper">
+			<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="btnWrapper" id="popdownwrapper">
+		<div class="btnWrapper" id="second">
+			<a href="{{ BASE_PATH }}/downloads.html" class="btn btn-lg btn-default-filled animated fadeInUp downloads" id="popdown">Download Now</a>
+		</div>
+	</div>
+	<!--CONTENT AREA END-->  
 </div>
