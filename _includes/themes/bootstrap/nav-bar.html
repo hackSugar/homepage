@@ -1,9 +1,9 @@
             <div class="top-menu">
               <p>
                 <span class="left">
-                  <a href="#"><i class="fa fa-map-marker"></i>New South Wales, Sydney</a>
-                  <a href="#"><i class="fa fa-mobile-phone"></i>+9 34476 3244</a>
-                  <a href="#"><i class="fa fa-envelope"></i>email@example.com</a>
+                  <a href="#"><i class="fa fa-map-marker"></i>New Jersey, United States of America</a>
+                  <a href="#"><i class="fa fa-mobile-phone"></i>+1 862 228 5361</a>
+                  <a href="#"><i class="fa fa-envelope"></i>connor.mcdermid@mcvts.org</a>
               	</span>
                 <span class="right hidden-sm-down">                          
                   {% if site.author.facebook %}<a href="https://www.facebook.com/{{ site.author.facebook }}/"><i class="fa fa-facebook"></i></a>{% endif %}
@@ -17,7 +17,7 @@
             <!-- navbar-default -->
             <nav class="navbar navbar-toggleable-sm navbar-light bg-default">
               <div class="container">
-                <a class="navbar-brand" href="{{ BASE_PATH }}"><img src="{{ BASE_PATH }}/assets/images/logo.png" alt=""></a>
+                <a class="navbar-brand" href="{{ BASE_PATH }}/index.html"><img src="{{ BASE_PATH }}/assets/images/logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-expanded="false" aria-label="Toggle navigation">
                   <i class="fa fa-bars"></i>
                 </button>
@@ -26,14 +26,16 @@
                     {% assign pages_list = site.pages %}
                     {% assign group = 'navigation' %}
                     {% include JB/pages_list %}
+                    
                     <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown link</a>
+                      <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Components</a>
                       <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="{{ BASE_PATH }}/weasel.html">Weasel</a>
+                        <a class="dropdown-item" href="{{ BASE_PATH }}/popcornVPN.html">popcornVPN</a>
+                        <a class="dropdown-item" href="{{ BASE_PATH }}/blinkOS.html">blinkOS Suite</a>
                       </div>
                     </li>
+                    
                   </ul>
                 </div>
               </div>
